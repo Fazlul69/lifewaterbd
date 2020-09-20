@@ -17,7 +17,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+//Admin
+Route::get('admin/home', 'AdminController@index');
+Route::get('admin', 'Admin\LoginController@showLoginForm')->name('login.admin');
+Route::post('admin','Admin\LoginController@login');
 
-Route::get('/admin', function () {
-    return view('admin/login');
-});
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
