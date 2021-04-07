@@ -30,6 +30,8 @@ p{
     background-color: #0049BC !important;
     border-top: 0px solid #9498c1;
     opacity: .7;
+    z-index: 999;
+
 }
 
 .navbar-brand{
@@ -47,10 +49,17 @@ p{
     border-radius: 35px;
     margin-top: -8px;
 }
-.navbar-right {
-    float: right !important;
-    margin-right: 90px;
+.nav-link {
+    color: #fff !important;font-size: 18px;padding: 0px;
 }
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #fbfbfd;
+    text-decoration: none;
+    background-color: #0d7dee;
+}
+
+/* carousel */
+
 
 /*details*/
 .for-one{
@@ -92,47 +101,20 @@ p{
     line-height: 1.13;
 }
 .b_text{
-    font-size: 78px;
-    color: #d8c80c;
+    font-size: 50px;
+    color: #0c49d8;
     margin-bottom: 70px;
 }
-.carousel-caption .btn {
-    text-shadow: none;
-    margin-bottom: 250px;
-    padding: 15px;
-}
+
 .dropdown, .dropup {
     position: relative;
-    margin-top: 15px;
+    margin-top: 0px;
 }
 .nav .open > a, .nav .open > a:focus, .nav .open > a:hover {
     background-color: #0049BC;
     border-color: #337ab7;
 }
-.dropdown-menu {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    z-index: 1000;
-    display: none;
-    float: left;
-    min-width: 210px;
-    padding: 12px 20px;
-    margin: 18px -50px 0px 0px;
-    font-size: 14px;
-    text-align: left;
-    list-style: none;
-    background-color: #fff;
-    -webkit-background-clip: padding-box;
-    background-clip: padding-box;
-    border: 1px solid #ccc;
-    border: 1px solid rgba(0,0,0,.15);
-    border-radius: 4px;
-    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
-    box-shadow: 0 6px 12px rgba(0,0,0,.175);
-    color: #121111;
-    font-weight: 700;
-}
+
 
 .te{
     font-size: 18px;
@@ -178,21 +160,21 @@ p{
 .footer{
     background-color: #0049BC;
     color: #ffffff;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
 }
 .footerheader{
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1.1px;
-    font-size: 1.2rem;
+    font-size: 18px;
     display: block;
     width: 100%;
-    padding: 13px 0 12px;
+    padding: 0px 0 0px;
     cursor: pointer;
     margin-top: 50px;
 }
 .footer_menu_items{
-    font-size: 1.5rem;
+    font-size: 15px;
     font-weight: 300;
     line-height: 1.14;
     margin-top: 10px;
@@ -207,7 +189,7 @@ a:hover{
     text-decoration: none;
 }
 .child_of_menu{
-    margin-bottom: 15px;
+    margin-bottom: 15px;margin-left: -8px;
 }
 .fa{
     color: #ffffff;
@@ -222,18 +204,15 @@ a:hover{
     border-radius: 45px 4px 4px 4px;
 
 }
-.navbar-right {
-    float: right !important;
-    margin-right: 90px;
-}
 
 .fata{
     list-style: none;
 }
 .book{
-    margin-left: 30px;
+    margin-left: 16px;
+    margin-top: 35px;
 }
 .tube {
-    margin-left: 25px;
-    margin-top: 2px;
+    margin-left: 100px;
+    margin-top: -40px;
 }

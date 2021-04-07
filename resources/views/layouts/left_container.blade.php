@@ -117,5 +117,24 @@
               </li>
             </ul>
           </li>
+          <!-- client -->
+          <li class="nav-item has-treeview menu-open">
+            <a href="#" class="nav-link ">
+              <!-- <i class="nav-icon fas fa-tachometer-alt"></i> -->
+              <p>
+              Client
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="{{route('client.index')}}" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Add</p>
+                </a>
+              </li>
+             
+            </ul>
+          </li>
         </ul>
       </nav>

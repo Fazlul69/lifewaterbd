@@ -17,6 +17,10 @@
                 </div>    
         </div> -->
         @include('pages.nav')
+        @include('pages.carousel')
+        @include('pages.show_product')
+        @include('pages.client')
+        @include('pages.footer')
 
          <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->

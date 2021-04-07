@@ -10,4 +10,8 @@ Route::get('/login', 'App\Http\Controllers\Auth\LoginController@logout')->name('
 Route::get('/', 'App\Http\Controllers\HomeController@index');
 
 // Dashboard
-Route::get('home/item','App\Http\Controllers\DashboardController@index');
+Route::get('home','App\Http\Controllers\DashboardController@index');
+
+//client
+Route::get('home/client','App\Http\Controllers\ClientController@index')->name('client.index');
+Route::post('home/client','App\Http\Controllers\ClientController@store')->name('client.store');
