@@ -22,3 +22,10 @@ Route::get('/reverse','App\Http\Controllers\ROSController@index')->name('ros');
 //admin
 Route::get('home/reverse','App\Http\Controllers\Admin\ReverseController@index')->name('ro.index');
 Route::post('home/reverse','App\Http\Controllers\Admin\ReverseController@store')->name('ro.store');
+
+//under 
+//admin
+Route::get('home/under','App\Http\Controllers\Admin\UnderCounterController@index')->name('under.index');
+Route::post('home/under','App\Http\Controllers\Admin\UnderCounterController@store')->name('under.store');
+// web
+Route::get('/under','App\Http\Controllers\UnderController@index')->name('under');

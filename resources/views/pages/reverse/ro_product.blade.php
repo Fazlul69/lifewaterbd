@@ -8,7 +8,7 @@
                 @foreach($reverses as $r)
                     <div class="col-md-3">
                         <div class="thumbnail">
-                            <img src="images/products/a.jpg" alt="Water Filter" class="img-thumbnail">
+                            <img src="{{asset('uploads/reverse/'. $r->image)}}" alt="Water Filter" class="img-thumbnail">
                             <div class="caption">
                                 <h3>{{$r->name}}</h3>
                                 <p>Brand: {{$r->brand}}

@@ -16,7 +16,7 @@
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a  class="dropdown-item" href="{{route('ros')}}">Reverse osmosis system</a>
-              <a  class="dropdown-item" href="under_counter.html">Under counter System</a>
+              <a  class="dropdown-item" href="{{route('under')}}">Under counter System</a>
               <a  class="dropdown-item" href="single_filter.html">Single Filter System</a>
               <a  class="dropdown-item" href="accessories.html">Filter accessories</a>
               <a  class="dropdown-item" href="industrial.html">Industrial Water Treatment</a>

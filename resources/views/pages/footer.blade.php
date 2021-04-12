@@ -5,7 +5,7 @@
             <div class="col-sm-3 col-md-3">
                 <p class="footerheader text-center">Hot Line</p>
                 <ul class="footer_menu_items">
-                    <ol class="child_of_menu"><a href="#"> Mobile No : 01812-459164</a></ol>
+                    <ol class="child_of_menu"><a href="#"> Mobile No : 01907-959770 </a></ol>
                     <ol class="child_of_menu"><a href="#"> Mobile No : 01791-981342</a></ol>
                     <ol class="child_of_menu"><a href="#"> Email : lifewater.ctg@gmail.com</a></ol>
                 </ul>
