@@ -4,7 +4,7 @@
 
 body{
     font-family: 'Istok Web', sans-serif;
-/overflow-x: hidden;
+    overflow-x: hidden;
 }
 
 h2{
@@ -19,102 +19,6 @@ p{
 }
 
 
-
-
-/*Header Starts*/
-
-.navbar{
-    border-radius: 0;
-    border: none;
-    min-height: 75px;
-
-}
-.navbar-inverse {
-    background-color: #0049BC;
-    border-top: 0px solid #9498c1;
-    opacity: .7;
-}
-
-.navbar-brand{
-    padding: 0 120px 25px 15px;
-    margin-top: 12px;
-}
-.navbar-inverse .navbar-nav > li > a{
-    color: #ffffff;
-
-}
-.navbar-nav{
-    padding-top: 10px;
-}
-
-
-/*details*/
-.for-text{
-    font-size: 32px;
-    line-height: 1.13;
-    margin-top: 150px;
-}
-.product{
-    margin-top: 50px;
-    margin-bottom: 20px;
-    text-align: center;
-    font-size: 40px;
-    font-weight: bold;
-}
-.b_text{
-    font-size: 50px;
-    color: #f7d906;
-    font-weight: bolder;
-    text-align: center;
-    
-}
-.carousel-caption {
-    right: 20%;
-    left: 20%;
-    padding-bottom: 130px;
-}
-
-.item {
-    height: 400px;
-}
-
-
-.dropdown, .dropup {
-    position: relative;
-    margin-top: 15px;
-}
-.nav .open > a, .nav .open > a:focus, .nav .open > a:hover {
-    background-color: #0049BC;
-    border-color: #337ab7;
-}
-.dropdown-menu {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    z-index: 1000;
-    display: none;
-    float: left;
-    min-width: 210px;
-    padding: 12px 20px;
-    margin: 18px -50px 0px 0px;
-    font-size: 14px;
-    text-align: left;
-    list-style: none;
-    background-color: #fff;
-    -webkit-background-clip: padding-box;
-    background-clip: padding-box;
-    border: 1px solid #ccc;
-    border: 1px solid rgba(0,0,0,.15);
-    border-radius: 4px;
-    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
-    box-shadow: 0 6px 12px rgba(0,0,0,.175);
-    color: #121111;
-    font-weight: 700;
-}
-.logo{
-    border-radius: 35px;
-    margin-top: -8px;
-}
 
 
 
@@ -204,72 +108,4 @@ h3{
 }
 
 
-
-
-
-
-
-/*footer start*/
-.footer{
-    background-color: #0049BC;
-    color: #ffffff;
-    padding-bottom: 50px;
-}
-.footerheader{
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 1.1px;
-    font-size: 1.2rem;
-    display: block;
-    width: 100%;
-    padding: 13px 0 12px;
-    cursor: pointer;
-    margin-top: 50px;
-}
-.footer_menu_items{
-    font-size: 1.5rem;
-    font-weight: 300;
-    line-height: 1.14;
-    margin-top: 10px;
-}
-
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-a:hover{
-    color: #ffffff;
-    text-decoration: none;
-}
-.child_of_menu{
-    margin-bottom: 15px;
-}
-.fa{
-    color: #ffffff;
-    font-size: 20px;
-    border: 1px solid #eeeee6;
-    padding: 10px 10px;
-    border-radius: 45px 4px 4px 4px;
-}
-/*.fa:hover{*/
-/*    color: #ff2a2e;*/
-/*    font-size: 20px;*/
-/*    border-radius: 45px 4px 4px 4px;*/
-
-/*}*/
-.navbar-right {
-    float: right !important;
-    margin-right: 90px;
-}
-
-.fata{
-    list-style: none;
-}
-.book{
-    margin-left: 30px;
-}
-.tube {
-    margin-left: 25px;
-    margin-top: 2px;
-}
 

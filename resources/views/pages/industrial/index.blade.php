@@ -7,19 +7,15 @@
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link href="{{asset('css/style.css')}}" rel="stylesheet">
+        <link href="{{asset('css/industrial.css')}}" rel="stylesheet">
 
-        <title>Life Water BD</title>
+        <title>Life Water/Industrial Water Treatment</title>
     </head>
     <body class="antialiased">
-        <!-- <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center sm:pt-0">
-                <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
-                    <a href="{{route('login')}}"  class="text-sm text-gray-700 underline">Log in</a>
-                </div>    
-        </div> -->
+
         @include('pages.nav')
-        @include('pages.carousel')
-        @include('pages.show_product')
-        @include('pages.client')
+        @include('pages.industrial.carousel')
+        @include('pages.industrial.product')
         @include('pages.footer')
 
          <!-- Optional JavaScript -->

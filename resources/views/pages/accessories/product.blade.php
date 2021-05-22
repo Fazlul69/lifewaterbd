@@ -5,14 +5,12 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="row">
-                @foreach($unders as $u)
+                @foreach($accessories as $a)
                     <div class="col-md-3">
                         <div class="thumbnail">
-                            <img src="{{asset('uploads/under/'. $u->image)}}" alt="Water Filter" class="img-thumbnail">
+                            <img src="{{asset('uploads/accessories/'. $a->image)}}" alt="Water Filter" class="img-thumbnail">
                             <div class="caption">
-                                <h3 class="text-center">{{$u->name}}</h3>
-                                <p class="text-center">Details: {{$u->details}}
-                                </p>
+                                <h3 class="text-center">{{$a->name}}</h3>
                             </div>
                         </div>
                     </div>

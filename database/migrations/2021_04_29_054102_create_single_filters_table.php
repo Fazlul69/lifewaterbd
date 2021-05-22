@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateSinglefiltersTable extends Migration
+class CreateSingleFiltersTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,7 +13,7 @@ class CreateSinglefiltersTable extends Migration
      */
     public function up()
     {
-        Schema::create('singlefilters', function (Blueprint $table) {
+        Schema::create('single_filters', function (Blueprint $table) {
             $table->id();
             $table->string('image');
             $table->string('name');
@@ -28,6 +28,6 @@ class CreateSinglefiltersTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('singlefilters');
+        Schema::dropIfExists('single_filters');
     }
 }

@@ -9,7 +9,7 @@
         <link href="{{asset('css/style.css')}}" rel="stylesheet">
         <link href="{{asset('css/products.css')}}" rel="stylesheet">
 
-        <title>Hello, world!</title>
+        <title>Life Water/Reverse Osmosis System</title>
     </head>
     <body class="antialiased">
 
